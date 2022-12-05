@@ -1,0 +1,375 @@
+:root {
+    --body-color: #FFF;
+    --text-color: #757575;
+    --header-color:  #212121;
+    --logo-color: #000000;
+    --link-color:  #2196F3;
+    --banner-color: #2F303A;
+    --background-color: #F5F4FA;
+}
+
+h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.header-class {
+    border-bottom: 1px solid #ECECEC;
+}
+
+.container-header {
+    display: flex; 
+    align-items: center;
+
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; 
+    background-color: var(--body-color);
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.header-link {
+    color: var(--header-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+}
+
+.header-logo {
+    color: var(--logo-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    font-family: 'Ralewey', sans-serif;
+    margin: 0;
+}
+
+.header-studio {
+    color: var(--link-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+}
+
+.header-contacts {
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+ 
+.header-link:hover {
+    color: var(--link-color);
+}
+
+.header-contacts:hover {
+    color: var(--link-color);
+}
+ 
+.banner-heading {
+    color:var(--body-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.3;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    width: 696px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner {
+    background-color: var(--banner-color);
+    padding: 200px 0;
+
+}
+
+.button {
+    color: var(--body-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color:var(--link-color);
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-family: inherit;
+    font-family: 'Roboto', sans-serif;
+    min-width: 216px;
+    min-height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+}
+
+.benefits-list{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 30px;
+}
+
+.benefits-li {
+    display: inline-block;
+    width: 270px;
+}
+
+.button:hover, .button:fokus
+
+.paragraph {
+    color: var(--text-color);
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+} 
+
+.caption {
+    color: var(--header-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.work-heading {
+    color:var(--header-color) ;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.work-ul {
+    gap: 30px;
+    display: flex;
+}
+
+.work-li {
+    margin: 0;
+    display: inline-block;
+}
+
+.team-caption {
+    color: var(--header-color) ;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.team-ul {
+    gap: 30px;
+    display: flex;
+    margin-bottom: 0;
+}
+
+.team-li {
+    margin: 0;
+    background-color: var(--body-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-person {
+    color: var(--header-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.team-p {
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.footer-logo {
+    color: var(--body-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    font-family: 'Ralewey', sans-serif;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.footer-s {
+    color: var(--link-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+}
+
+.footer {
+    background-color: var(--banner-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-li {
+    margin-bottom: 9px;
+}
+
+.benefits {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.work {
+    padding-bottom: 94px;
+}
+
+.footer-a {
+    color: var(--text-color);
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.footer-location {
+    color: var(--body-color);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+}
+
+.footer-location:hover, .footer-location:focus {
+    color: var(--link-color);
+}
+
+.footer-a:hover {
+    color: var(--link-color);
+}
+
+.header-ul, .header-list, .benefits-list, .work-ul, .team-ul, .footer-ul, .header-list, .hero-list, .cards {
+    list-style: none;
+}
+
+.header-ul {
+    display: flex; 
+    gap: 50px;
+    align-items: center;
+    margin-left: 93px;
+}
+
+.header-li {
+    padding: 32px 0;
+}
+
+.header-list {
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
+    align-items: center;
+}
+
+.hero-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    color: var(--header-color);
+    cursor: pointer;
+    border-style: none;
+    background: var(--background-color);
+    border-radius: 4px;
+
+}
+
+.hero-btn:hover {
+    background-color:var(--link-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    color: var(--body-color);
+}
+
+.cards-heading {
+    color:var(--header-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.cards-p {
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+}
+
+.header-link.current {
+    color:var(--link-color);
+}
+
+.fitsbene-list {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+} 
+
+.team {
+    background-color:  var(--background-color);
+    padding-bottom: 94px;
+    padding-top: 94px;
+}
